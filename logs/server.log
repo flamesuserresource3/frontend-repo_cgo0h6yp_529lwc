@@ -3,55 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 286 ms
+  VITE v5.4.20  ready in 254 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.11.137:3000/
-10:14:57 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/App.jsx:28:68: ERROR: Expected identifier but found "2"
-10:14:58 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/App.jsx:28:68: ERROR: Expected identifier but found "2"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/App.jsx:28:68
-  
-  Expected identifier but found "2"
-  26 |                  <div className="rounded-lg bg-sky-50 px-3 py-4">
-  27 |                    <dt className="text-xs font-medium text-sky-700">Gns. svartid</dt>
-  28 |                    <dd className="text-2xl font-bold text-sky-900">< 24t</dd>
-     |                                                                      ^
-  29 |                  </div>
-  30 |                  <div className="rounded-lg bg-emerald-50 px-3 py-4">
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-10:15:17 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/App.jsx:28:68: ERROR: Expected identifier but found "2"
-  Plugin: vite:esbuild
-  File: /home/workspace/src/App.jsx:28:68
-  
-  Expected identifier but found "2"
-  26 |                  <div className="rounded-lg bg-sky-50 px-3 py-4">
-  27 |                    <dt className="text-xs font-medium text-sky-700">Gns. svartid</dt>
-  28 |                    <dd className="text-2xl font-bold text-sky-900">< 24t</dd>
-     |                                                                      ^
-  29 |                  </div>
-  30 |                  <div className="rounded-lg bg-emerald-50 px-3 py-4">
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+10:18:07 PM [vite] ✨ new dependencies optimized: lucide-react
+10:18:07 PM [vite] ✨ optimized dependencies changed. reloading

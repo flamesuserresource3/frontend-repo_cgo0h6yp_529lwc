@@ -25,7 +25,7 @@ function App() {
                 </div>
                 <div className="rounded-lg bg-sky-50 px-3 py-4">
                   <dt className="text-xs font-medium text-sky-700">Gns. svartid</dt>
-                  <dd className="text-2xl font-bold text-sky-900">< 24t</dd>
+                  <dd className="text-2xl font-bold text-sky-900">&lt; 24t</dd>
                 </div>
                 <div className="rounded-lg bg-emerald-50 px-3 py-4">
                   <dt className="text-xs font-medium text-emerald-700">Lokationer</dt>
